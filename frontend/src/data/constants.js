@@ -47,9 +47,9 @@ export const RESEARCH = [
     {
         title: "IEEE Publication on COPD Prediction",
         conference: "International Conference on Computing and Communication Systems (I3CS)",
-        doi: "10.1109/I3CS.2024.12345678 (Placeholder)",
+        doi: "10.1109/SSITCON66133.2025.11342251",
         description: "This paper presents a novel approach for early detection of Chronic Obstructive Pulmonary Disease (COPD) using ensemble machine learning techniques. The system analyzes patient demographics, symptoms, and spirometry data to predict risk levels with 98% accuracy.",
-        link: "#"
+        link: "https://ieeexplore.ieee.org/document/11342251?denied="
     }
 ];
 
