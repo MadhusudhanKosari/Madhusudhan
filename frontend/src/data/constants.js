@@ -42,3 +42,72 @@ export const SKILLS = [
     { category: "AI/ML", items: ["Machine Learning", "Deep Learning", "TensorFlow", "Pandas", "OpenCV"] },
     { category: "Tools", items: ["Git", "GitHub", "Docker", "Overleaf", "VS Code"] }
 ];
+
+export const RESEARCH = [
+    {
+        title: "IEEE Publication on COPD Prediction",
+        conference: "International Conference on Computing and Communication Systems (I3CS)",
+        doi: "10.1109/I3CS.2024.12345678 (Placeholder)",
+        description: "This paper presents a novel approach for early detection of Chronic Obstructive Pulmonary Disease (COPD) using ensemble machine learning techniques. The system analyzes patient demographics, symptoms, and spirometry data to predict risk levels with 98% accuracy.",
+        link: "#"
+    }
+];
+
+export const LEADERSHIP = {
+    roles: [
+        {
+            title: "GDG on Campus",
+            role: "Design Co-Lead",
+            icon: "FaUsers",
+            description: "Orchestrated design workshops and managed the visual identity for multiple campus-wide tech events. Mentored junior designers and fostered a collaborative community of 500+ student developers."
+        },
+        {
+            title: "Hackathon Finalist",
+            role: "SIH & Adobe",
+            icon: "FaTrophy",
+            description: "Smart India Hackathon (SIH): Led team 'FarmSyncro' to the Grand Finale (Level 2). Adobe Make-athon: Regional finalist for developing an AI-driven creative tool."
+        }
+    ],
+    codingProfiles: [
+        {
+            name: 'LeetCode',
+            link: 'https://leetcode.com/u/Madhu_kosari/',
+            color: 'text-yellow-500',
+            stat: 'Problem Solving',
+            desc: 'View Profile',
+            iconLibrary: "SiLeetcode"
+        },
+        {
+            name: 'CodeChef',
+            link: 'https://www.codechef.com/users/madhusudhan_12',
+            color: 'text-amber-700',
+            stat: 'Competitive Coding',
+            desc: 'View Profile',
+            iconLibrary: "SiCodechef"
+        },
+        {
+            name: 'Codeforces',
+            link: 'https://codeforces.com/profile/23211a05e8',
+            color: 'text-blue-500',
+            stat: 'Contest Rating',
+            desc: 'View Profile',
+            iconLibrary: "SiCodeforces"
+        },
+        {
+            name: 'GeeksforGeeks',
+            link: 'https://www.geeksforgeeks.org/profile/madhukosari',
+            color: 'text-green-500',
+            stat: 'DSA Practice',
+            desc: 'View Profile',
+            iconLibrary: "SiGeeksforgeeks"
+        },
+        {
+            name: 'SmartInterviews',
+            link: 'https://smartinterviews.in/profile/madhu_kosari',
+            color: 'text-indigo-500',
+            stat: 'Course & Rankings',
+            desc: 'View Profile',
+            iconLibrary: "FaCode"
+        }
+    ]
+};

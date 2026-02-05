@@ -20,7 +20,8 @@ const Navbar = () => {
     const navLinks = [
         { name: 'Home', path: '/' },
         { name: 'Projects', path: '/projects' },
-        // { name: 'Research', path: '/research' }, // Hidden based on complexity preference, can re-enable
+        { name: 'Research', path: '/research' },
+        { name: 'Leadership', path: '/leadership' },
         { name: 'Resume', path: '/resume' },
         { name: 'Contact', path: '/contact' },
     ];
@@ -28,8 +29,8 @@ const Navbar = () => {
     return (
         <nav
             className={`fixed w-full z-50 transition-all duration-300 ${scrolled
-                    ? 'bg-primary-light/90 dark:bg-primary-dark/90 backdrop-blur-md shadow-lg py-3 border-b border-muted-light/20 dark:border-muted-dark/20'
-                    : 'bg-transparent py-6'
+                ? 'bg-primary-light/90 dark:bg-primary-dark/90 backdrop-blur-md shadow-lg py-3 border-b border-muted-light/20 dark:border-muted-dark/20'
+                : 'bg-transparent py-6'
                 }`}
         >
             <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
