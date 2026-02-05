@@ -6,7 +6,7 @@ export const PROFILE = {
     bio_expanded: "My journey started with a curiosity for how things work, leading me to master the MERN stack and dive deep into Machine Learning. I have published research on medical prediction systems and led design teams for Google Developer Groups. I am currently expanding my expertise in Flutter for cross-platform mobile development.",
     email: "23211a05e8@bvrit.ac.in",
     github: "https://github.com/MadhusudhanKosari",
-    linkedin: "https://linkedin.com/in/kosarimadhusudhan",
+    linkedin: "https://www.linkedin.com/in/madhusudhan-kosari-b28540282/",
     instagram: "https://instagram.com/kosarimadhusudhan",
     resumeLink: "/resume.pdf"
 };
