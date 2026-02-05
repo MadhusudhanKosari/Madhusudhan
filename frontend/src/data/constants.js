@@ -7,7 +7,7 @@ export const PROFILE = {
     email: "23211a05e8@bvrit.ac.in",
     github: "https://github.com/MadhusudhanKosari",
     linkedin: "https://www.linkedin.com/in/madhusudhan-kosari-b28540282/",
-    instagram: "https://instagram.com/kosarimadhusudhan",
+    instagram: "https://www.instagram.com/madhusudhankosari_04",
     resumeLink: "/resume.pdf"
 };
 
